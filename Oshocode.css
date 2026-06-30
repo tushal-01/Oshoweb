@@ -1,0 +1,86 @@
+body {
+    /* background-color: #b13fe6; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxlaiVoqOm0KciXbdiDwSB9cfwBdWKE7subOU8tvWLtKNEGAG878SMGPQ&s=10");
+    margin-top: 150px;
+}
+
+#log{
+    text-align: center;
+    font-size:45px;
+    text-shadow: 3px 3px 5px #a09381;
+    font-weight:500;
+    font-family: roboto,sans-serif;
+    color: #887a6d;
+    
+}
+/*
+#usr{block-size: 25px;
+     outline:none; 
+    box-shadow: 5px 5px;}
+#pass{text-align: center;}
+*/
+
+.cred{
+    margin-left: 25px
+}
+.cred label{
+    display:block;
+    text-shadow: 1px 1px 2px #a09381;
+    font-size:20px;
+    color:#887a6d;
+    font-weight: 500;
+    font-family: roboto,sans-serif;
+}
+.cred input{
+    width: 100%;
+    max-width: 250px;
+    padding:5px 15px;
+    font-size:15px;
+    font-family: roboto,sans-serif;
+    border-radius: 5px;
+    border:2px solid #887b6b;
+    background-color:#fbe0c5;
+    color:#6a6053;
+    margin-bottom: 9px;
+}
+
+.nxt {
+    text-align: end;
+    width:283px;
+    margin-top: 10px;
+}
+
+#but {
+    background: #887b6b;
+    color: #fff5eb;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#but:hover {
+    background: #65513c;
+    transform: scale(1.05);
+    transition: .2s;
+}
+/* .password-box{
+    position: relative;
+    width: 280px;
+}
+
+.password-box input{
+    width:100%;
+    padding-right:45px;
+}
+
+#eye{
+    position:absolute;
+    right:8px;
+    top:50%;
+    transform:translateY(-50%);
+    border:none;
+    background:none;
+    cursor:pointer;
+    font-size:18px;
+} */
